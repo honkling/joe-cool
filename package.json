@@ -1,0 +1,24 @@
+{
+  "name": "jad-points",
+  "version": "0.1.0",
+  "description": "The Jad Points bank!",
+  "main": "src/index.ts",
+  "author": "honkling",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@discordjs/rest": "^0.3.0",
+    "@types/node": "^17.0.21",
+    "@types/sqlite3": "^3.1.8",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  },
+  "scripts": {
+    "start": "ts-node $npm_package_main"
+  }
+}

@@ -1,0 +1,4 @@
+database.db
+.env
+node_modules
+yarn_error.log
